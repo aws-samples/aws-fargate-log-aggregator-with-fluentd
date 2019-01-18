@@ -22,7 +22,7 @@ aws ecs create-cluster --cluster-name fargate-fluentd-tutorial
 
 Next, create an [ECS Task Execution IAM role](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_execution_IAM_role.html).
 
-Finally, launch `template.yml`:
+Finally, launch [template.yml](template.yml):
 
 ```
 aws cloudformation deploy --template-file template.yml --stack-name aggregator-service \
