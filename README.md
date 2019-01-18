@@ -4,7 +4,7 @@ A reference architecture for running a Fluentd Log Aggregator on AWS Fargate, wh
 
 ### Building the Fluentd Docker image
 
-First, customize the Fluentd configuration file in `src`. Then, build it into the docker image:
+First, customize the Fluentd configuration file in [src](src). Then, build it into the docker image:
 
 ```
 docker build -t fluentd-aggregator src
