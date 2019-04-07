@@ -1,6 +1,6 @@
 ## AWS Fargate and Fluentd based Log Aggregator
 
-A reference architecture for running a Fluentd Log Aggregator on AWS Fargate, which forwards logs to Kinesis Firehose.
+A reference architecture for running a Fluentd Log Aggregator on AWS Fargate, which forwards logs to Kinesis Firehose. See [Building a scalable log solution aggregator with AWS Fargate, Fluentd, and Amazon Kinesis Data Firehose](https://aws.amazon.com/blogs/compute/building-a-scalable-log-solution-aggregator-with-aws-fargate-fluentd-and-amazon-kinesis-data-firehose/).
 
 ### Building the Fluentd Docker image
 
